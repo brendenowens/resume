@@ -1,0 +1,83 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Brenden M. Owens}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{7628 Lilac Road}
+ \moveleft.5\hoffset\centerline{Plymouth, IN 46563}
+ \moveleft.5\hoffset\centerline{(574) 806-2522}
+\moveleft .5\hoffset\centerline{ Email: brendenowens@gmail.com}
+
+
+\begin{resume}
+ 
+\section{OBJECTIVE}  A position in the field of computers with special 
+                interests in software development for client and server side applications, data integration and analysis, or cloud architecting. 
+ 
+
+\section{EDUCATION} {\sl Bachelor of Science,} Computer Science \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                Indiana University - South Bend, South Bend, IN, 
+                Completed December 2015 \\
+                Concentration: Computer Science \\
+                Minor: Mathematics 
+ 
+ 
+\section{COMPUTER \\ SKILLS} {\sl Languages \& Software:} C, C++, C\#, Python, Bash, Java, SQL \\
+                {\sl Operating Systems:} Unix, Windows, Mac OS X. 
+ 
+\section{EXPERIENCE} 
+{\sl Photo Technician} \hfill            Summer 2012 - Fall 2015 \\
+                Photo Department, Walgreens, Knox, IN
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Maintain and repair photo equipment and computers
+                   \item Help customers with using the kiosks and teaching them how to use them on their own
+                     \item Troubleshooting network and computer issues
+                 \end{itemize}
+
+{\sl Computer Technician Intern} \hfill Spring 2014 - Fall 2015 \\
+                BraunAbility, 
+                Information Technology Department, Winamac, IN 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Improved an ASP.NET training site with more features, reports, and fixed bugs within the site
+                \item   Developed two new ASP.NET sites for department use and monitoring
+                \item
+                Created interactive part mapping that helps dealers find the exact part or kit needed to repair certain sections of a lift
+                \end{itemize}
+
+{\sl Enterprise Integration Architect Associate} \hfill Winter 2015 - Current \\
+                University of Notre Dame
+                Office of Information Technology, Notre Dame, IN
+                \begin{itemize} \itemsep -2pt
+                  \item Helped to integrate to Salesforce alumni, employee, and student data
+                  \item Developed a realtime messaging standard and system for use in an idcard system
+                  \item Created a logging analytics solution with notifications
+                  \item Developed a database design pattern that splits the population from the actual data
+                  \item Created a graph database of all of the systems our integration service touched and what users it used to access them
+                  \item Administered api keys and access to apis throught the use of 3Scale and a proxy server
+                \end{itemize}
+
+\section{CERTIFICATIONS}
+            AWS Certified Solutions Architect Associate \\
+
+\section{PERSONAL \\ PROJECTS}
+            Plant Data Analysis Ruby on Rails Site\\
+            Self-Monitoring Gardening System Built using Arduino\\
+            Personal 3D Printer\\
+\end{resume}
+\end{document}
+
+
+
+
